@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+<meta charset="windows-1251">
+<title>Измерение любви</title>
+<style type="text/css">
+a{
+color: #fff;
+text-decoration: none;
+}
+html{
+background: #FFF8CC;
+min-height: 100%;
+font-family: Calibri;
+display: flex;
+flex-direction: column;
+}
+body{
+margin: 0;
+padding: 0 15px;
+display: flex;
+flex-direction: column;
+flex: auto;
+}
+h1{
+margin-top: 0;
+}
+h1, p{
+color: #006064;
+}
+img{
+border: 0;
+}
+.header{
+width: 100%;
+min-width: 460px;
+max-width: 960px;
+margin: 0 auto 30px;
+padding: 30px 0 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+box-sizing: border-box;
+}
+.logo{
+font-size: 1.5rem;
+color: #fff;
+text-decoration: none;
+margin: 5px 0 0 5px;
+justify-content: center;
+align-items: center;
+display: flex;
+flex: none;
+align-items: center;
+background: #839FFF;
+width: 130px;
+height: 50px;
+}
+.nav{
+margin: -5px 0 0 -5px;
+display: flex;
+flex-wrap: wrap;
+}
+.nav-item{
+background: #BDC7FF;
+width: 130px;
+height: 50px;
+font-size: 1.5rem;
+color: #fff;
+text-decoration: none;
+display: flex;
+margin: 5px 0 0 5px;
+justify-content: center;
+align-items: center;
+}
+.sqr{
+height: 300px;
+width: 300px;
+background: #FFDB89;
+}
+
+.main{
+width: 100%;
+min-width: 460px;
+max-width: 960px;
+margin: auto;
+flex: auto;
+box-sizing: border-box;
+}
+.box{
+font-size: 1.25rem;
+line-height: 1.5;
+margin: 0 0 40px -50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.box-base{
+margin-left: 50px;
+flex: 1 0 430px;
+}
+.box-side{
+margin-left: 50px;
+font: none;
+}
+.box-img{
+max-width: 100%;
+height: auto;
+}
+.content{
+margin-bottom: 30px;
+display: flex;
+flex-wrap: wrap;
+}
+.banners{
+flex: 1 1 200px;
+}
+.banner{
+background: #FFDB89;
+width: 100%;
+min-width: 100px;
+min-height: 200px;
+font-size: 3rem;
+color: #fff;
+margin: 0 0 30px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.posts{
+margin: 0 0 30px 30px;
+flex: 1 1 200px;
+}
+.comments{
+margin: 0 0 30px 30px;
+flex: 1 1 200px;
+}
+.comment{
+display: flex;
+}
+.comment-side{
+padding-right: 20px;
+flex: none;
+}
+.comment-base{
+flex: auto;
+}
+.comment-avatar{
+background: #FFA985;
+width: 50px;
+height: 50px;
+}
+.footer{
+background: #FF3366;
+width: 100%;
+max-width: 960px;
+min-width: 460px;
+color: #fff;
+margin: auto;
+padding: 15px;
+box-sizing: border-box;
+}
+
+@media screen and  (max-width: 800px) {
+.banners{
+margin-left: -30px;
+display: flex;
+flex-basis: 100%;
+}
+.banner{
+margin-left: 30px;
+}
+.posts{
+margin-left: 0;
+}
+}
+@media screen and  (max-width: 600px) {
+.content{
+display: block;
+}
+.banners{
+margin: 0;
+display: block;
+}
+.banner{
+margin-left: 0;
+}
+.posts{
+margin: 0;
+}
+}
+</style>
+</head>
+<body>
+<header class="header">
+<a class="logo">
+Пупсик
+</a>
+<nav class="nav">
+<a href="#posts" class="nav-item">Шкалы</a>
+<a href="#comments" class="nav-item">Доп.шкалы</a>
+<a href="#footer" class="nav-item">Контакты</a>
+</nav>
+
+</header>
+<main class="main">
+<div class="box">
+<div class="box-base">
+<h1>Насколько я тебя люблю?</h1>
+<p>Здесь расположены несколько шкал, можешь рассмотреть ниже :)</p>
+</div>
+<div class="box-side">
+<div class="sqr"><img src=мы.png width="300" height="300" title="шкала1" align=right></div>
+
+</div>
+</div>
+</div>
+<div class="content">
+<div class="banners">
+<div class="banner"><img src=ом.jpg width="180" height="207" title="шкала1" align=right></div>
+<div class="banner"><img src=вес.png width="287" height="205" title="шкала2" align=right></div>
+<div class="banner"><img src=кел.png width="300" height="300" title="шкала3" align=right></div>
+</div>
+<div class="posts"  id="posts">
+<div class="post">
+<h1>Неравномерная шкала омметра</h1>
+<p>Конечное значение шкалы — наибольшее значение измеряемой величины, которое может быть отсчитано по шкале средства измерений. По данной шкале моя любовь на той отметке, на которую указывает стрелочка.
+.
+</p>
+</div>
+<div class="post">
+<h1>Шкала отношений</h1>
+<p>Здесь в качестве примера шкалы отношений будут представлены весы. Если на них положить мою любовь к тебе, то стрелочка на них будет крутиться бесконечно, пока совсем не вышли бы из строя.</p>
+</div>
+<div class="post">
+<h1>Шкала температур Кельвина</h1>
+<p>Как видишь, на рисунке максимальная отметка "10,000", а мои чувства ещё выыше там, где самый верх шкалы.</p>
+</div>
+</div>
+<div class="comments"  id="comments">
+<div class="comment">
+<div class="comment-side">
+<div class="comment-avatar">
+
+</div>
+</div>
+<div class="comment-base">
+<h1 class="comment-title">10-ти бальная шкала</h1>
+<p>Я бы сказала, что по этой шкале все 100, но по этой шкале невозможно сказать сколько баллов количеством, поэтому здесь будет просто бесконечность баллов.</p>
+</div>
+</div>
+<div class="comment">
+<div class="comment-side">
+<div class="comment-avatar">
+
+</div>
+</div>
+<div class="comment-base">
+<h1 class="comment-title">Шкала Цельсия</h1>
+<p>Температура кипения воды при давлении в 1 атмосферу равняется 99,9839°C, в таком случае температура моей любви к тебе по Цельсию будет равняться 99,9840°C</p>
+</div>
+</div>
+<div class="comment">
+<div class="comment-side">
+<div class="comment-avatar">
+
+</div>
+</div>
+<div class="comment-base">
+<h1 class="comment-title">Шкала Фаренгейта</h1>
+<p>Температура кипения воды при давлении в 1 атмосферу равняется 211,971°F и тогда температура моей любви к тебе по Фаренгейту будет равняться 211,972°F</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="footer"  id="footer">
+По всем вопросам обращаться по номеру: +7 950 189-54-43
+</footer>
+</body>
+</html>
